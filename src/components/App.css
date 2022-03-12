@@ -1,1 +1,104 @@
 /* Styles go here */
+/* * Main */
+.groupForm{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.inputTxt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.inputTxt p{
+    margin: 0;
+}
+
+.inputForm{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.inputForm input{
+    width: 100%;
+}
+
+.inputForm h5{
+    margin: 0;
+}
+
+.rateForm{
+    display: flex;
+    margin-top: 5vh;
+    justify-content: space-between;
+}
+
+.rateForm p{
+    font-size: 16px;
+}
+
+.allForm button{
+    border: 1px solid rgb(40, 126, 255);
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(40, 126, 255);
+    padding: 5px;
+    color: #fff;
+}
+
+.allForm{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 5vh 10vh;
+    border-radius: 3px;
+    width: 40vw;
+    margin-top: 5vh;
+}
+
+.inputForm img{
+    width: 30px;
+}
+
+.inputFormTxt{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.changeForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+
+.changeForm button{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 2px;
+    padding: 2px 15px;
+    transition: 0.3s ease-out;
+}
+
+.changeForm button:nth-child(1){
+    color: rgb(18, 173, 158);
+}
+
+.changeForm button:nth-child(1):hover{
+    background-color: rgb(18, 173, 158);
+    color: #fff;
+}
+
+
+.changeForm button:nth-child(2){
+    color: rgb(111, 18, 173);
+}
+
+.changeForm button:nth-child(2):hover{
+    background-color: rgb(111, 18, 173);
+    color: #fff;
+}
